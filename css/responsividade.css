@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px){
+    header {
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }  
+
+    header img {
+        margin: auto;
+        padding: auto;
+    }
+}
+
+@media only screen and (max-width: 515px){
+    .logo_nome {
+        width: 80%;
+    }
+
+    .logo_arvore {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 400px){
+    header nav ul li {
+        font-size: 130%;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    section {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    header nav ul {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 620px){
+   section h1 {
+    font-size: 120%;
+    padding: 0px;
+   }
+}
+
+@media only screen and (max-width: 450px){
+    section img, iframe {
+        width: 80%;
+        height: 80%;
+    }
+ }
+
+ @media only screen and (max-width: 700px){
+    footer {
+        font-size: 90%;
+    }
+    
+    footer img {
+        width: 8%;
+
+    }
+ }
+
+ @media only screen and (max-width: 400px){
+    .peça {
+        margin: 30px 0px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .contato , .horario {
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .contato form {
+        width: 80%;
+    }
+
+    .horario {
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+
+    .contato h1, .horario h1 {
+        font-size: 120%;
+        padding: 0px;
+    }
+}
