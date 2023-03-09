@@ -1,0 +1,17 @@
+div {
+    margin: 50px;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(233, 229, 229, 0.504);
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px #888888;
+    
+}
+
+div h1 {
+    font-size: 60px;
+    color: #42A66D;
+}

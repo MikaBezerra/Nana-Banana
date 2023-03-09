@@ -1,0 +1,20 @@
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 15px;
+}
+
+form fieldset {
+    border:0;
+    color: #A65C32;
+}
+
+form fieldset input, textarea {
+    width: 100%;
+}
+
+form fieldset input {
+    height: 28px;
+}
+
+
