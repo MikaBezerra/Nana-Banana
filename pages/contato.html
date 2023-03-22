@@ -40,25 +40,25 @@
     <div class="contato">
 
         <h1>ENTRE <br> EM <br> CONTATO:</h1>
-        <form action="">
+        <form onsubmit="event.preventDefault()">
 
             <fieldset>
-                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Nome" id="input-nome" required minlength="2">
             </fieldset>
 
             <fieldset>
-                <input type="email" placeholder="E-mail">
+                <input type="email" placeholder="E-mail" id="input-email" required>
             </fieldset>
 
             <fieldset>
-                <input type="tel" placeholder="Telefone">
+                <input type="tel" placeholder="Telefone: (99) 99999-9999" id="input-tel" required pattern="^\(\d{2}\) \d{5}-\d{4}$" maxlength="15">
             </fieldset>
 
             <fieldset>
                 <textarea name="input-msg" id="input-msg" cols="30" rows="6"></textarea>
             </fieldset>
 
-            <center><input type="submit" value="ENVIAR" class="buttom-contato"></center>
+            <center><input type="submit" value="ENVIAR" class="buttom-contato" onclick="enviarFormulario()"></center>
 
         </div>
 
@@ -119,5 +119,8 @@
         Nana Banana | Todos os direitos reservados.
         <img height="20px" width="70px" src="../assets/logo_arvore_direita.png" alt="logo arovre deitada para direita">
     </footer>
+
+    <script src="../scripts/script.js"></script>
+
 </body>
 </html>
